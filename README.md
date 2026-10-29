@@ -19,3 +19,7 @@ Emulated virtual links, not real gateway hardware. ICMP round-trip time is both 
 signal and the latency measure. The deep-queue baseline is deliberately deep. Controller tested on
 IPv4 only, 3 runs. Classifier, call-quality verifier, intent API and dashboard are not built yet.
 Results integrity: see docs/MANIFEST.sha256.
+
+## When the tests were run
+Tests 0 to 4: 22 Oct 2026. Tests 5 and 6: 28 Oct 2026.
+Kali Linux VM in VMware Workstation. Raw outputs are in data/; the environment record is docs/environment.txt.
