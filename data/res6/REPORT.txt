@@ -1,0 +1,5 @@
+
+IPv6, 20 Mbit/s link                      deep            cake
+Avg delay (ms)                  750.96+/-37.41     0.52+/-0.06
+Jitter (ms)                       87.96+/-1.85     0.44+/-0.18
+Throughput (Mbit/s)               18.83+/-0.02    18.78+/-0.00

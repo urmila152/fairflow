@@ -1,0 +1,35 @@
+PING fd00::2 (fd00::2) 56 data bytes
+64 bytes from fd00::2: icmp_seq=1 ttl=64 time=0.778 ms
+64 bytes from fd00::2: icmp_seq=2 ttl=64 time=0.581 ms
+64 bytes from fd00::2: icmp_seq=3 ttl=64 time=0.255 ms
+64 bytes from fd00::2: icmp_seq=4 ttl=64 time=0.743 ms
+64 bytes from fd00::2: icmp_seq=5 ttl=64 time=0.180 ms
+64 bytes from fd00::2: icmp_seq=6 ttl=64 time=0.181 ms
+64 bytes from fd00::2: icmp_seq=7 ttl=64 time=0.132 ms
+64 bytes from fd00::2: icmp_seq=8 ttl=64 time=0.511 ms
+64 bytes from fd00::2: icmp_seq=9 ttl=64 time=0.241 ms
+64 bytes from fd00::2: icmp_seq=10 ttl=64 time=0.340 ms
+64 bytes from fd00::2: icmp_seq=11 ttl=64 time=0.260 ms
+64 bytes from fd00::2: icmp_seq=12 ttl=64 time=0.702 ms
+64 bytes from fd00::2: icmp_seq=13 ttl=64 time=0.915 ms
+64 bytes from fd00::2: icmp_seq=14 ttl=64 time=1.02 ms
+64 bytes from fd00::2: icmp_seq=15 ttl=64 time=1.46 ms
+64 bytes from fd00::2: icmp_seq=16 ttl=64 time=0.169 ms
+64 bytes from fd00::2: icmp_seq=17 ttl=64 time=0.189 ms
+64 bytes from fd00::2: icmp_seq=18 ttl=64 time=0.204 ms
+64 bytes from fd00::2: icmp_seq=19 ttl=64 time=0.513 ms
+64 bytes from fd00::2: icmp_seq=20 ttl=64 time=0.295 ms
+64 bytes from fd00::2: icmp_seq=21 ttl=64 time=3.56 ms
+64 bytes from fd00::2: icmp_seq=22 ttl=64 time=0.535 ms
+64 bytes from fd00::2: icmp_seq=23 ttl=64 time=0.147 ms
+64 bytes from fd00::2: icmp_seq=24 ttl=64 time=0.572 ms
+64 bytes from fd00::2: icmp_seq=25 ttl=64 time=0.294 ms
+64 bytes from fd00::2: icmp_seq=26 ttl=64 time=0.661 ms
+64 bytes from fd00::2: icmp_seq=27 ttl=64 time=0.324 ms
+64 bytes from fd00::2: icmp_seq=28 ttl=64 time=0.945 ms
+64 bytes from fd00::2: icmp_seq=29 ttl=64 time=0.517 ms
+64 bytes from fd00::2: icmp_seq=30 ttl=64 time=0.100 ms
+
+--- fd00::2 ping statistics ---
+30 packets transmitted, 30 received, 0% packet loss, time 5902ms
+rtt min/avg/max/mdev = 0.100/0.577/3.558/0.637 ms

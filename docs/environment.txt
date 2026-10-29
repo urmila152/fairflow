@@ -1,0 +1,13 @@
+Thursday 29 October 2026 03:44:35 AM UTC
+Linux kali 6.16.8+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.16.8-1kali1 (2025-09-24) x86_64 GNU/Linux
+PRETTY_NAME="Kali GNU/Linux Rolling"
+NAME="Kali GNU/Linux"
+VERSION_ID="2025.4"
+tc utility, iproute2-6.17.0, libbpf 1.6.2
+iperf 3.20 (cJSON 1.7.15)
+Python 3.13.9
+CPU(s):                                  4
+Model name:                              13th Gen Intel(R) Core(TM) i3-1315U
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.0Gi       2.0Gi        13Mi       1.0Gi       2.8Gi
+Host: VMware Workstation on Windows

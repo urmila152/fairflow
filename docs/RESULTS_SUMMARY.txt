@@ -1,0 +1,31 @@
+FairFlow lab results (virtual veth link, 20 Mbit/s unless stated)
+
+TEST 0: deep queue vs CAKE, 5 runs (qos_test.sh)
+Avg latency ms   813.36+/-56.59   vs   0.47+/-0.08
+Max latency ms   962.88+/-53.65   vs   1.74+/-0.58
+Jitter ms         87.05+/-0.88    vs   0.36+/-0.08
+Packet loss %      0.00           vs   0.00
+Throughput Mbit/s 19.06+/-0.01    vs  19.01+/-0.05
+
+TEST 1: four queue setups, 5 runs (test1_baselines.sh)
+                 deep          fqcodel       htbstatic     cake
+Avg latency ms   784.15+/-8.43  2.55+/-0.42   0.11+/-0.02   0.42+/-0.07
+Jitter ms         87.86+/-3.65  2.62+/-2.18   0.10+/-0.11   0.26+/-0.08
+Throughput       19.09+/-0.03  18.44+/-0.17  18.81+/-0.22  18.85+/-0.18
+
+TEST 2: 3 bulk TCP flows + game-like UDP flow, 5 runs (test2_fairness.sh)
+                 deep           fqcodel       htbstatic     cake
+TCP total Mbit/s 18.49+/-0.14   18.01+/-0.04  18.23+/-0.09  18.28+/-0.09
+Jain fairness     0.64+/-0.22    1.00+/-0.00   0.52+/-0.16   1.00+/-0.00
+UDP jitter ms     2.70+/-0.83    0.97+/-0.27   2.47+/-0.22   0.41+/-0.08
+UDP loss %        8.36+/-10.99   0.00+/-0.00   0.00+/-0.00   0.02+/-0.01
+Ping avg ms    1167.27+/-390.80  1.08+/-0.18   0.08+/-0.01   0.44+/-0.03
+
+TEST 3: link drops 100 -> 20 Mbit/s, 3 runs (test3_capdrop.sh)
+Avg latency ms       static shaper   adaptive (re-shaped, scripted)
+Before drop              0.9              0.8
+0-2 s after drop        47.7             37.8
+2-10 s after drop       72.8              2.3
+10 s+ after drop       410.5              1.0
+
+Environment: Kali Linux kernel 6.16.8 in VMware, iproute2 6.17.0, iperf3 3.20, Python 3.13.9
